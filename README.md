@@ -172,3 +172,53 @@ System.out.println("Time taken: " + (endTime - startTime) + " ns");
 #### Big-O Complexity:
 - The problem size reduces significantly in each step.
 - The number of recursive calls is **O(log n)**.
+
+##RESULTS
+
+Enter number of elements in array: 5
+Enter array elements: 
+10 1 32 3 45
+Minimum: 1
+Time taken: 937600 ns
+
+Enter number of elements for average calculation: 4
+Enter array elements: 
+3 2 4 1
+Average: 2.5
+Time taken: 1951500 ns
+
+Enter a number to check for prime: 10
+Composite
+Time taken: 7000 ns
+
+Enter a number for factorial calculation: 5
+Factorial: 120
+Time taken: 516700 ns
+
+Enter a number for Fibonacci calculation: 17
+Fibonacci: 1597
+Time taken: 1014200 ns
+
+Enter base and exponent for power calculation: 2 10
+Power: 1024
+Time taken: 406600 ns
+
+Enter number of elements for reversing: 4
+Enter array elements: 
+1 4 6 2
+Reversed Array: 2 6 4 1 
+Time taken: 1230200 ns
+
+Enter a string to check if it consists of all digits: 12345d
+No
+Time taken: 70900 ns
+
+Enter n and k for binomial coefficient calculation: 7 3
+Binomial Coefficient: 35
+Time taken: 298000 ns
+
+Enter two numbers for GCD calculation: 32 48
+GCD: 16
+Time taken: 243300 ns
+
+Process finished with exit code 0
